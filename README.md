@@ -1,6 +1,6 @@
 # kmer-counter-boost
 
-The `kfs` program reads in multiline FASTA records, counts canonical kmers using the [Boost C++ API](https://www.boost.org/).
+The `kfs` program reads in multiline FASTA records, counts canonical kmers using the [Boost C++ `boost::unordered_map`](https://www.boost.org/) hash table.
 
 ## Boost C++
 
